@@ -172,5 +172,5 @@ To reproduce the results:
 1. Clone the repository
 2. Install dependencies: pip install -r requirements.txt
 3. Open the notebook: notebooks/analysis.ipynb
-4. 
+
 Figures and outputs will be generated in figures/
