@@ -51,7 +51,7 @@ $r_{p,t} = \mathbf{w}^\top \mathbf{r}_t$
 ### 3.2 GJR-GARCH Conditional Variance
 
 For each asset:
-$$\sigma_t^2 = \omega + \alpha \epsilon_{t-1}^2 + \gamma \mathbf{1}_{\{\epsilon_{t-1}<0\}}\epsilon_{t-1}^2 + \beta \sigma_{t-1}^2$$
+σ_t² = ω + α ε_{t-1}² + γ I{ε_{t-1} < 0} ε_{t-1}² + β σ_{t-1}²
 
 with Student-t innovations.
 
@@ -68,10 +68,10 @@ $$\mathbf{r} = \frac{\mathbf{y}}{\sqrt{u/\nu}},\quad \mathbf{y}\sim \mathcal{N}(
 ### 3.5 Risk Measures
 
 Value-at-Risk: 
-$\text{VaR}_{\alpha} = -Q_{1-\alpha}\left(r_p\right)$
+VaR_α = - Quantile_{1-α}(r_p)
 
 Expected Shortfall: 
-$\text{ES}_{\alpha} = -\mathbb{E}[r_p\mid r_p < -\text{VaR}_{\alpha}]$
+ES_α = - E[r_p | r_p < -VaR_α]
 
 ---
 
