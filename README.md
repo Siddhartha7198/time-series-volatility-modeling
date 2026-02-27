@@ -57,21 +57,21 @@ with Student-t innovations.
 
 ### 3.3 EWMA Correlation
 
-Given standardized residuals $\(z_t\)$: $S_t = \frac{\sum_{k=0}^{L-1} \lambda^k z_{t-k} z_{t-k}^\top}{\sum_{k=0}^{L-1} \lambda^k},\quad
-R_t = D_t^{-1}S_tD_t^{-1}$
+Given standardized residuals $\(z_t\)$: 
+$S_t = \frac{\sum_{k=0}^{L-1} \lambda^k z_{t-k} z_{t-k}^\top}{\sum_{k=0}^{L-1} \lambda^k},\quad R_t = D_t^{-1}S_tD_t^{-1}$
 
 ### 3.4 Multivariate Student-t Simulation
 
 Using a scale mixture:
-$\mathbf{r} = \frac{\mathbf{y}}{\sqrt{u/\nu}},\quad
-\mathbf{y}\sim \mathcal{N}(0,\Sigma),\quad
-u\sim \chi^2_\nu$
+$\mathbf{r} = \frac{\mathbf{y}}{\sqrt{u/\nu}},\quad \mathbf{y}\sim \mathcal{N}(0,\Sigma),\quad u\sim \chi^2_\nu$
 
 ### 3.5 Risk Measures
 
-Value-at-Risk: $\text{VaR}_{\alpha} = -Q_{1-\alpha}\left(r_p\right)$
+Value-at-Risk: 
+$\text{VaR}_{\alpha} = -Q_{1-\alpha}\left(r_p\right)$
 
-Expected Shortfall: $\text{ES}_{\alpha} = -\mathbb{E}[r_p\mid r_p < -\text{VaR}_{\alpha}]$
+Expected Shortfall: 
+$\text{ES}_{\alpha} = -\mathbb{E}[r_p\mid r_p < -\text{VaR}_{\alpha}]$
 
 ---
 
